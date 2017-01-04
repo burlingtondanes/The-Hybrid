@@ -23,15 +23,18 @@
 
 <div class="demo-layout-transparent mdl-layout mdl-js-layout">
   <header class="mdl-layout__header mdl-layout__header--transparent">
-    <div class="mdl-layout__header-row">
+   	<div class="mdl-layout__header-row">
       <!-- Title -->
       <span class="mdl-layout-title">Brandon's Cache</span>
       <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation -->
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="index.html"><i class="material-icons">home</i></a>
-        <a class="mdl-navigation__link" href="portfolio.html"><i class="material-icons">view_quilt</i></a>
+        <a id="tt1" class="mdl-navigation__link" href="index.html"><i class="material-icons">home</i></a>
+        <div class="mdl-tooltip" data-mdl-for="tt1">Home</div>
+        <a id="tt2" class="mdl-navigation__link" href="portfolio.html"><i class="material-icons">view_quilt</i></a>
+        <div class="mdl-tooltip" data-mdl-for="tt2">Portfolio</div>
+
       </nav>
     </div>
   </header>
